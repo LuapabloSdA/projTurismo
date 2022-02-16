@@ -3,51 +3,65 @@
     <head>
         <style>
             /*Titulo da Página, cor, tudo*/
-        #pag_cima{
+            #pag_cima{
                 display: flex;
                 width: 100%;
-                height: 150px;
+                height: 100px;
                 background-color: red;
                 align-items: center;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
                 color: rgb(255, 255, 255);
+                margin: 5px;
+            }
+            #dentro_cima{
+                display: flex;
+                width: 50%;
+                height: 50px;
+                background-color: red;
+                align-items: center;
+                margin: 90px;
+                justify-content: space-between;
             }
             #pag_menu{
-                height: 500px;
-                width: 190px;
+                height: 15%;
+                width: 15%;
                 background-color: green;
                 text-align: center;
                 float:left;
                 align-items: center;
+                margin: 5px;
+                padding: 5px;
+
             }
             #pag_meio{
-                height: 500px;
-                width: 970px;
+                height: 50%;
+                width: 70%;
                 float: left;
                 text-align: center;
-            }
-            #prefeitos{
-                height: 500px;
-                width: 200px;
-                border-style: solid;
-                border-color: blue;
-                float: right;
-                text-align: center;
+                margin: 5px;
+                padding: 5px;
             }
             #traco{
                 text-decoration: underline;
                 color: rgb(255, 255, 255);
             }
+            #div{
+                max-width: 320px;
+                max-height: 800px;
+                margin: auto;
+            }
+            #traco2{
+                text-decoration: underline;
+            }
         </style>
     </head>
     <body>
         <!--Titulo da página-->
-        <title>Turismo de Mar Vermelho</title>
+        <title>Turismo</title>
         <div id="pag_cima">
-            <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="40" height="40">
-            <h1 id="traco">Turismo</h1>
+            <div id="dentro_cima">
+                <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="60" height="60">
+                <h1 id="traco2">Turismo</h1>
+            </div>
         </div>
         <!--Menu da Página-->
         <div id="pag_menu">
@@ -55,10 +69,12 @@
             <p><a href="https://luapablosda.github.io/projInicial/">Menu</a></p>
             <p><a href="https://luapablosda.github.io/projHistoria/">Historia</a></p>
             <p><a href="https://luapablosda.github.io/projArtesanato/">Artesanato</a></p>
+            <p><a href="https://luapablosda.github.io/projEscolas/">Escolas</a></p>
 
         </div>
         <!--Página Central-->
         <div id="pag_meio">
+            <h3 id="traco2">Cabana</h3>
             <img src="">
             <p>.</p>
         </div>

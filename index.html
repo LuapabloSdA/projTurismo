@@ -1,82 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            /*Titulo da Página, cor, tudo*/
-            #pag_cima{
-                display: flex;
-                width: 100%;
-                height: 100px;
-                background-color: red;
-                align-items: center;
-                color: rgb(255, 255, 255);
-                margin: 5px;
-            }
-            #dentro_cima{
-                display: flex;
-                width: 50%;
-                height: 50px;
-                background-color: red;
-                align-items: center;
-                margin: 90px;
-                justify-content: space-between;
-            }
-            #pag_menu{
-                height: 15%;
-                width: 15%;
-                background-color: green;
-                text-align: center;
-                float:left;
-                align-items: center;
-                margin: 5px;
-                padding: 5px;
+<html lang="pt-br">
 
-            }
-            #pag_meio{
-                height: 50%;
-                width: 70%;
-                float: left;
-                text-align: center;
-                margin: 5px;
-                padding: 5px;
-            }
-            #traco{
-                text-decoration: underline;
-                color: rgb(255, 255, 255);
-            }
-            #div{
-                max-width: 320px;
-                max-height: 800px;
-                margin: auto;
-            }
-            #traco2{
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body vlink="yellow" link="yellow">
-        <!--Titulo da página-->
-        <title>Turismo</title>
-        <div id="pag_cima">
-            <div id="dentro_cima">
-                <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="60" height="60">
-                <h1 id="traco2">Turismo</h1>
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Artesanato</title>
+</head>
+
+<body>
+
+    <!--Pagina Fixa, no caso a Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-primary bg-primary position-fixed col-12 m-auto" style="z-index: 999; ">
+            <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png"
+                height="30px" width="30px">
+            <h1 style="color: white;">Turismo</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="conteudoNavbarSuportado">
+                <div class="nav-item my-2 my-lg-0 ">
+                    <a class="navbar-brand nav-link text-white" href="https://luapablosda.github.io/projInicial/">Inicial</a>
+                </div>
+                <div class="nav-item my-2 my-lg-0">
+                    <a class="navbar-brand nav-link text-white" href="https://luapablosda.github.io/projHistoria/">História</a>
+                </div>
+                <div class="nav-item my-2 my-lg-0">
+                    <a class="navbar-brand nav-link text-white" href="https://luapablosda.github.io/projArtesanato/">Artesanato</a>
+                </div>
+                <div class="nav-item my-2 my-lg-0">
+                    <a class="navbar-brand nav-link text-white" href="https://luapablosda.github.io/trabalho/">Criador</a>
+                </div>
+                <div class="nav-item my-2 ">
+                    <a class="navbar-brand nav-link text-white" href="https://luapablosda.github.io/projFormContato/">Reportar</a>
+                </div>
+                <div class="nav-item my-2">
+                    <a class="navbar-brand nav-link text-white" href="https://luapablosda.github.io/Download/">Downloar Apps</a>
+                </div>
+                </ul>
             </div>
-        </div>
-        <!--Menu da Página-->
-        <div id="pag_menu">
-            <p id="traco">Qual pagina, deseja ir?</p>
-            <p><a href="https://luapablosda.github.io/projInicial/">Menu</a></p>
-            <p><a href="https://luapablosda.github.io/projHistoria/">Historia</a></p>
-            <p><a href="https://luapablosda.github.io/projArtesanato/">Artesanato</a></p>
-            <p><a href="https://luapablosda.github.io/projEscolas/">Escolas</a></p>
+        </nav>
+    </header>
+    <br><br><br>
+    <hr primary><br>
+    <!-- Até aqui a Pagina Fixa-->
 
-        </div>
-        <!--Página Central-->
-        <div id="pag_meio">
-            <h3 id="traco2">Cabana</h3>
-            <img src="">
-            <p>.</p>
-        </div>
-    </body>
+    <!--Titulo-->
+    <h3 class="text-center col-10 m-auto">Turismo em Mar Vermelho</h3>
+    <br><br><br>
+    <p class="text-center m-auto col-10">A nossa maior especialidade, indiscutivelmente, é o clima frio. Esse fator climático acumulado de belas paisagens verdes
+    serranas, a cultura, a culinária local, cachoeiras, o artesanato, praças com monumentos religiosos, igrejas rurais,
+    trilhas ecológicas e a receptividade de um povo pacato e ordeiro abrem precedentes para experiências inimagináveis nas
+    esferas do setor turístico. O ecoturismo ou turismo de aventura oportunizado em nosso território permite ao visitante o
+    acesso a trilhas, escaladas, rapel, cavalgadas e passeios por semblantes majestosos.
+    Atualmente, temos diversificadas opções de hospedagem que vão desde pousada de charme, estrategicamente situada na zona
+    rural, com estruturas que não deixam a desejar em nada de renomados espaços de estadia de grandes cidades à pousada que
+    gera comodidade por sua localização privilegiada na região central do município com ambientes aconchegantes, sem deixar
+    de passar pelo empreendimento do turismo rural, aquele em que donos de propriedades rurais abrem suas casas, fazendas
+    e/ou alugam por temporadas para receberem turistas interessados em experiências no campo como: pescar, andar à cavalo,
+    piscina, ter contato com animais e atividades rurais.
+    Nossa culinária é um ponto forte no atendimento dos gostos mais variados e refinados, tendo cardápios típicos da nossa
+    região e opções de outras culturas brasileiras e estrangeiras. O Festival de Inverno colocou Mar Vermelho entre as
+    cidades que realiza um dos melhores festivais da região nordeste. Sucesso total. O evento, Festival de Inverno, já
+    atraiu mais de 20 mil pessoas na pequenina cidade, reuniu grandes nomes da música brasileira e gera muita expectativa
+    até a divulgação das atratividades de cada ano. Em nossas festividades podemos destacar também a emancipação política da
+    cidade (25 de março), a tradicional festa da Barriguda, no dia de São Pedro (29 de junho), a festa da Padroeira Nossa
+    Senhora da Conceição em novembro e o evento “Um Encanto de Natal”, em dezembro, com desfiles temáticos, apresentações
+    musicais e destaque especial para a decoração das luzes natalinas.</p>
+
+    <br><br>
+    <hr primary>
+    <br>
+    <h4 class="text-center m-auto col-10">Para informação, entre em contato apertando o simbolo do WhatsApp a baixo.</h4>
+    <br>
+    <a classe="text-center m-auto col-10" href="https://contate.me/meusite">
+        <p class="text-center m-auto">
+            <img width="70px" height="70px"
+                src="https://user-images.githubusercontent.com/98188181/171859916-c0899e5b-0747-4d70-8869-0dfc2ef93455.png">
+        </p>
+    </a>
+    <br><br><br><br><br>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
